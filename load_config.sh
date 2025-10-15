@@ -51,6 +51,12 @@ else
     IDENTITY_PATH=$(eval echo "$IDENTITY_PATH")
 fi
 
+# Export vars
+export IDENTITY_PATH
+export ENVIRONMENT
+export HORIZON_URL
+export ASSETS
+
 # Print results
 echo "🌐 Environment: $ENVIRONMENT"
 echo "🚀 Horizon URL: $HORIZON_URL"
